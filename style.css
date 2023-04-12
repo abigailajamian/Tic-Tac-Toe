@@ -1,0 +1,70 @@
+.gameboard{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    display: flex;
+    margin-top: 150px;
+}
+.board {
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+    
+}
+
+div[class*='space']{
+    border-style: inset;
+    border-color: black;
+    border-width: 1px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.title{
+    font-size: 50px;
+    
+}
+
+#start-restart{
+    position: absolute;
+    top:75%;
+    width:10%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.popup{
+    position: absolute;
+    top:-138%;
+    width: 30%;
+    height: 10%;
+    border-style: dotted;
+    background-color: rgb(59, 140, 253);
+    font-size: 50px;
+    color: azure;
+    
+    
+}
+
+.popup.activated {
+    position: absolute;
+    top:38%;
+    width: 30%;
+    height: 10%;
+    border-style: dotted;
+    background-color: rgb(59, 140, 253);
+    font-size: 50px;
+    color: azure;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    opacity: 1;
+    
+}
